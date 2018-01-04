@@ -3,15 +3,15 @@
  * License - http://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 
-.fa,
-.fab,
+/*
+*/.fab,
 .fal,
 .far,
 .fas {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    font-style: normal;
+/*    display: inline-block;
+*/    font-style: normal;
     font-variant: normal;
     text-rendering: auto;
     line-height: 1
@@ -30,6 +30,7 @@
 .fa-sm {
     font-size: .875em
 }
+
 
 .fa-1x {
     font-size: 1em
@@ -205,8 +206,8 @@
 }
 
 .fa-stack {
-    display: inline-block;
-    height: 2em;
+/*    display: inline-block;
+*/    height: 2em;
     line-height: 2em;
     position: relative;
     vertical-align: middle;
