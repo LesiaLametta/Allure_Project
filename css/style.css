@@ -11,6 +11,12 @@ body {
 
 
 
+
+
+
+
+
+
 /*==========Top Header==========*/
 
 .header_topline {
@@ -111,6 +117,12 @@ a.social_link:hover {
 
 
 
+
+
+
+
+
+
 /*=============Mo\id Header===========*/
 
 .mid_header {
@@ -120,8 +132,9 @@ a.social_link:hover {
 .search {
     text-align: left;
     font-size: 24px;
-    color: #000;   
+    color: #000;
 }
+
 .logo {
     display: inline-block;
     text-align: center;
@@ -132,6 +145,12 @@ a.social_link:hover {
     font-size: 24px;
     color: #000;
 }
+
+
+
+
+
+
 
 /*========Down Header========*/
 
@@ -173,6 +192,12 @@ a.social_link:hover {
     color: #A8A8A8;
     text-decoration: none;
 }
+
+
+
+
+
+
 
 
 
@@ -230,7 +255,7 @@ a.social_link:hover {
 }
 
 .slider_description button:hover {
-	border: 2px solid #ffffff;
+    border: 2px solid #ffffff;
     cursor: pointer;
     background-color: #fff;
     font-weight: bold;
@@ -271,7 +296,15 @@ a.social_link:hover {
 .slider.owl-carousel.owl-loaded {
     position: relative;
 }
+
+
+
+
+
+
+
 /*=======For navigation on hover effect=========*/
+
 .slider.owl-theme .owl-nav {
     position: absolute;
     bottom: 0;
@@ -321,6 +354,12 @@ a.social_link:hover {
 
 
 
+
+
+
+
+
+
 /*=========Support============*/
 
 .support {
@@ -358,11 +397,90 @@ a.social_link:hover {
 
 .suppot_description p {
     display: inline-block;
-	color: #999999;
+    color: #999999;
     font-size: 13px;
     font-weight: 400;
     line-height: 23.99px;
     max-width: 252px;
     text-align: center;
     margin-bottom: 58px;
+}
+
+
+
+
+
+
+
+/*----------__Static__===============*/
+
+.container_static {
+    display: flex;
+    align-items: center;
+    margin-top: 79px;
+}
+
+.static_duo {
+    flex-direction: column;
+}
+
+.static_item {
+    margin-bottom: 30px;
+}
+
+.static_singular {
+    flex-direction: row;
+}
+
+.static_item {
+    position: relative;
+}
+
+.static_description {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+
+h4.item_name1 {
+    width: 170px;
+    height: 66px;
+    color: #4fa59d;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.9px;
+}
+
+h4.item_name2 {
+    width: 131px;
+    height: 67px;
+    color: #9a7e45;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.9px;
+}
+
+p.more {
+    width: 105px;
+    height: 9px;
+    margin: 30px 0 66px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+}
+
+.static_description a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.static_description a:hover {
+    text-decoration: none;
+    color: #821010;
+    font-weight: bold;
+    transition: 0.3s;
 }
