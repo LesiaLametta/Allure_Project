@@ -23,6 +23,8 @@ body {
 
 
 
+
+
 /*==========Top Header==========*/
 
 .header_topline {
@@ -131,7 +133,9 @@ a.social_link:hover {
 
 
 
-/*=============Mo\id Header===========*/
+
+
+/*=============Mid Header===========*/
 
 .mid_header {
     padding: 51px 0;
@@ -153,6 +157,8 @@ a.social_link:hover {
     font-size: 24px;
     color: #000;
 }
+
+
 
 
 
@@ -203,6 +209,8 @@ a.social_link:hover {
     text-decoration: none;
     transition: 0.3s;
 }
+
+
 
 
 
@@ -319,6 +327,8 @@ a.social_link:hover {
 
 
 
+
+
 /*=======For navigation on hover effect=========*/
 
 .slider.owl-theme .owl-nav {
@@ -378,6 +388,8 @@ a.social_link:hover {
 
 
 
+
+
 /*=========Support============*/
 
 .support {
@@ -423,6 +435,8 @@ a.social_link:hover {
     text-align: center;
     margin-bottom: 58px;
 }
+
+
 
 
 
@@ -532,14 +546,160 @@ h3.title {
 
 
 
+/*========================Slider=========================*/
+
 .slider-item img {
     display: block;
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 .sliderr .owl-dots {
     position: relative;
     text-align: center;
 }
+
+
+.sliderr.owl-theme .owl-dots .owl-dot.active span {
+    background: #eaae3b;
+    border: none;
+}
+
+.sliderr.owl-theme .owl-dots .owl-dot span {
+    border: 2px solid #999999;
+    background: #999999;
+}
+
+.sliderr {
+    position: relative;
+    margin-bottom: 120px;
+}
+
+.sliderr.owl-theme .owl-nav {
+    background-color: #fff;
+    cursor: default;
+    color: #a9a9a9;
+}
+
+.sliderr.owl-theme .owl-nav {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    cursor: default;
+    color: #a9a9a9;
+}
+
+.sliderr .owl-next {
+    float: right;
+}
+
+
+
+.sliderr.owl-nav:hover {
+    background-color: #fff;
+}
+
+.sliderr.owl-theme .owl-nav>div {
+    color: #a9a9a9;
+    font-size: 14px;
+    margin: 0;
+    padding: 11px 7px 5px 13px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 1px solid #eeeeee;
+    background-color: #ffffff;
+}
+
+
+
+
+
+.owl-nav:hover {
+    background-color: #fff;
+}
+
+
+
+
+.sliderr.owl-theme .owl-nav .owl-prev {
+    margin-right: -1px;
+}
+
+
+.sliderr.owl-theme .owl-nav [class*=owl-]:hover {
+    background-color: #ffffff;
+    color: #a9a9a9;
+}
+
+.sliderr.owl-theme .owl-nav [class*=owl-] i {
+    font-size: 38px;
+}
+
+
+
+/*=================*Banner*=============*/
+
+.banner_item img {
+    width: auto;
+    overflow: hidden;
+}
+
+
+.banner_item {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.banner_description {
+    position: absolute;
+    top: 24%;
+    left: 0;
+    right: 0;
+}
+
+.banner_description h2 {
+    height: 40px;
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 30.03px;
+    margin-bottom: 49px;
+}
+
+.banner_description p {
+    max-width: 705px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 26.03px;
+    margin: 0 auto 77px;
+}
+
+.banner_description button {
+    width: 221px;
+    height: 66px;
+    border-radius: 7px;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 36px;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.banner_description button:hover {
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    background-color: #fff;
+    font-weight: bold;
+    color: #000;
+    font-size: 14px;
+    opacity: 0.5;
+    transition: all 0.4s;
 }
