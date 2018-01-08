@@ -38,6 +38,12 @@ body {
 
 
 
+
+
+
+
+
+
 /*==========Top Header==========*/
 
 .header_topline {
@@ -161,6 +167,12 @@ a.social_link:hover {
 
 
 
+
+
+
+
+
+
 /*=============Mid Header===========*/
 
 .mid_header {
@@ -183,6 +195,12 @@ a.social_link:hover {
     font-size: 24px;
     color: #000;
 }
+
+
+
+
+
+
 
 
 
@@ -248,6 +266,12 @@ a.social_link:hover {
     text-decoration: none;
     transition: 0.3s;
 }
+
+
+
+
+
+
 
 
 
@@ -394,6 +418,12 @@ a.social_link:hover {
 
 
 
+
+
+
+
+
+
 /*=======For navigation on hover effect=========*/
 
 .slider.owl-theme .owl-nav {
@@ -468,6 +498,12 @@ a.social_link:hover {
 
 
 
+
+
+
+
+
+
 /*=========Support============*/
 
 .support {
@@ -513,6 +549,12 @@ a.social_link:hover {
     text-align: center;
     margin-bottom: 58px;
 }
+
+
+
+
+
+
 
 
 
@@ -650,6 +692,12 @@ h3.title {
 
 
 
+
+
+
+
+
+
 /*========================Slider=========================*/
 
 .slider-item img {
@@ -757,6 +805,12 @@ h3.title {
 
 
 
+
+
+
+
+
+
 /*=================*Banner*=============*/
 
 .banner {
@@ -844,6 +898,12 @@ h3.title {
     line-height: 26.03px;
     margin-bottom: 57px;
 }
+
+
+
+
+
+
 
 
 
@@ -1027,4 +1087,117 @@ span.discount {
     justify-content: space-between;
     vertical-align: middle;
     padding-bottom: 67px;
+}
+
+.instagram {
+    margin-bottom: 130px;
+}
+
+.instagram .title {
+    margin-top: 120px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 30.03px;
+}
+
+.instagram p {
+    max-width: 790px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26.03px;
+    text-align: center;
+    margin: 0 auto 46px;
+}
+
+.instagram .instagram-item {}
+
+
+
+/*============*==========For hover with absolute picture positioning============*/
+
+
+/*.insta_hover {
+    position: relative;
+    display: none;
+}
+
+.insta_hover_desription {
+    position: absolute;
+    top: 28%;
+    left: 37%;
+}
+
+.insta_approve {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: middle;
+    margin: 15px -30px;
+}
+
+
+.insta_hover img {
+    padding-bottom: 15px;
+}
+
+.like_number,
+.comment_number {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 7px;
+}
+
+
+
+.instagram-item:hover .insta_hover {
+    display: block;
+    cursor: pointer;
+}
+
+
+.instagram-item img:hover .instagram-item {
+    display: none;
+}
+
+*/
+
+
+/*.instagram-item {
+    position: relative;
+}*/
+
+.instagram-item {
+    position: relative;
+}
+
+.instagram_item {
+    display: inline-block;
+    margin-bottom: 11px;
+    margin-right: 7px;
+}
+
+
+.insta_hover {
+    position: absolute;
+    display: none;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+
+
+
+
+.instagram_item:hover .insta_hover {
+    display: block;
+    cursor: pointer;
+}
+
+.instagram_item:hover .instagram_item {
+    display: none;
 }
