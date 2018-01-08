@@ -36,6 +36,8 @@ body {
 
 
 
+
+
 /*==========Top Header==========*/
 
 .header_topline {
@@ -157,6 +159,8 @@ a.social_link:hover {
 
 
 
+
+
 /*=============Mid Header===========*/
 
 .mid_header {
@@ -179,6 +183,8 @@ a.social_link:hover {
     font-size: 24px;
     color: #000;
 }
+
+
 
 
 
@@ -242,6 +248,8 @@ a.social_link:hover {
     text-decoration: none;
     transition: 0.3s;
 }
+
+
 
 
 
@@ -384,6 +392,8 @@ a.social_link:hover {
 
 
 
+
+
 /*=======For navigation on hover effect=========*/
 
 .slider.owl-theme .owl-nav {
@@ -456,6 +466,8 @@ a.social_link:hover {
 
 
 
+
+
 /*=========Support============*/
 
 .support {
@@ -501,6 +513,8 @@ a.social_link:hover {
     text-align: center;
     margin-bottom: 58px;
 }
+
+
 
 
 
@@ -634,6 +648,8 @@ h3.title {
 
 
 
+
+
 /*========================Slider=========================*/
 
 .slider-item img {
@@ -739,6 +755,8 @@ h3.title {
 
 
 
+
+
 /*=================*Banner*=============*/
 
 .banner {
@@ -826,6 +844,8 @@ h3.title {
     line-height: 26.03px;
     margin-bottom: 57px;
 }
+
+
 
 
 
@@ -946,10 +966,10 @@ span.discount {
 
 .about {
     display: inline-block;
+    padding-top: 109px;
 }
 
 .about .about_left .title {
-    padding-top: 109px;
     text-align: left;
     font-size: 42px;
     font-weight: 500;
@@ -966,6 +986,7 @@ span.discount {
     font-size: 14px;
     font-weight: 400;
     line-height: 26px;
+    margin-bottom: 40px;
 }
 
 
@@ -990,6 +1011,20 @@ span.discount {
 
 .about_right .about_item {
     float: right;
-    margin-top: 94px;
     margin-left: 159px;
+}
+
+.line {
+    border-bottom: 2px solid #dedcdc;
+    padding-top: 110px;
+    margin-bottom: 67px;
+}
+
+
+.sponsors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: middle;
+    padding-bottom: 67px;
 }
