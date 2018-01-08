@@ -44,6 +44,10 @@ body {
 
 
 
+
+
+
+
 /*==========Top Header==========*/
 
 .header_topline {
@@ -173,6 +177,10 @@ a.social_link:hover {
 
 
 
+
+
+
+
 /*=============Mid Header===========*/
 
 .mid_header {
@@ -195,6 +203,10 @@ a.social_link:hover {
     font-size: 24px;
     color: #000;
 }
+
+
+
+
 
 
 
@@ -266,6 +278,8 @@ a.social_link:hover {
     text-decoration: none;
     transition: 0.3s;
 }
+
+
 
 
 
@@ -424,6 +438,10 @@ a.social_link:hover {
 
 
 
+
+
+
+
 /*=======For navigation on hover effect=========*/
 
 .slider.owl-theme .owl-nav {
@@ -504,6 +522,10 @@ a.social_link:hover {
 
 
 
+
+
+
+
 /*=========Support============*/
 
 .support {
@@ -549,6 +571,10 @@ a.social_link:hover {
     text-align: center;
     margin-bottom: 58px;
 }
+
+
+
+
 
 
 
@@ -698,6 +724,10 @@ h3.title {
 
 
 
+
+
+
+
 /*========================Slider=========================*/
 
 .slider-item img {
@@ -811,6 +841,10 @@ h3.title {
 
 
 
+
+
+
+
 /*=================*Banner*=============*/
 
 .banner {
@@ -898,6 +932,10 @@ h3.title {
     line-height: 26.03px;
     margin-bottom: 57px;
 }
+
+
+
+
 
 
 
@@ -1089,6 +1127,14 @@ span.discount {
     padding-bottom: 67px;
 }
 
+
+
+
+
+
+
+/*================Instagram=================*/
+
 .instagram {
     margin-bottom: 130px;
 }
@@ -1111,6 +1157,10 @@ span.discount {
 }
 
 .instagram .instagram-item {}
+
+
+
+
 
 
 
@@ -1201,3 +1251,245 @@ span.discount {
 .instagram_item:hover .instagram_item {
     display: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===================Footer==================*/
+
+.footer_bg {
+    background-color: #2e2b2b;
+}
+
+footer .container {
+    padding: 79px 0 60px;
+}
+
+.footer_title {
+    text-align: left;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 38px;
+}
+
+.newsletter p {
+    color: #999999;
+    max-width: 275px;
+    margin-bottom: 37px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.email_form {
+    display: inline-block;
+    /*    position: relative;
+*/
+}
+
+form {
+    position: relative;
+}
+
+.form-control {
+    width: 290px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    display: inline-block;
+    background-color: #ffffff;
+    color: #999999;
+    font-size: 13px;
+    font-weight: 400;
+    padding-left: 17px;
+    line-height: 24px;
+    text-align: left;
+}
+
+
+.email_icon .material-icons {
+    position: absolute;
+    top: 24%;
+    right: 5%;
+    width: 18px;
+    color: #999999;
+    height: 13px;
+    color: #d3d3da;
+}
+
+.info_options {
+    padding-bottom: 25px;
+}
+
+.info_options ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.info_options li {
+    text-align: left;
+}
+
+.info_options a {
+    color: #999999;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+
+.info_options a:hover {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.info_options .email {
+    font-size: 13px;
+    color: #fff;
+}
+
+
+.info_options.email:hover {
+    color: #999;
+}
+
+.info_options li {
+    color: #999;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+
+
+/*.footer_media a.social_links {
+    display: inline-block;
+    line-height: 1;
+    margin: 0 2px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+
+}*/
+
+.footer_media a.social_links .fa-facebook {
+    display: inline-block;
+    line-height: 1;
+    margin: 0 2px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background: #3b5999;
+}
+
+
+.footer_media a.social_links .fa-rss {
+    display: inline-block;
+    line-height: 1;
+    margin: 0 2px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background: #ea7a06;
+}
+
+.footer_media a.social_links .fa-pinterest {
+    display: inline-block;
+    line-height: 1;
+    margin: 0 2px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background: #fe1b1a;
+}
+
+
+.footer_media a.social_links .fa-twitter {
+    display: inline-block;
+    line-height: 1;
+    margin: 0 2px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background: #1ba1f1;
+}
+
+
+.hours {
+    padding-top: 67px;
+}
+
+.hours p {
+    color: #999999;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.hours .time {
+    color: #fff;
+}
+
+.footer_container {
+    width: 1140px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+.footer_line {
+    border-bottom: 2px solid #dedcdc;
+    padding-top: 285px;
+}
+
+.footer_underline {
+    margin-top: 58px;
+}
+
+.footer_underline a {
+    color: #999999;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.footer_underline ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.footer_underline a:hover {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
