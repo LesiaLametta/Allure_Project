@@ -847,7 +847,7 @@ h3.title {
     transition: all 0.3s ease;
 }
 
-.slider-item:hover .slider_description {
+.slider-item:hover .sliderr_description {
     display: none;
 }
 
