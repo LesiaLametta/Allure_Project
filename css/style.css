@@ -1156,7 +1156,6 @@ span.discount {
     margin: 0 auto 46px;
 }
 
-.instagram .instagram-item {}
 
 
 
@@ -1215,15 +1214,8 @@ span.discount {
 */
 
 
-/*.instagram-item {
-    position: relative;
-}*/
-
-.instagram-item {
-    position: relative;
-}
-
 .instagram_item {
+    position: relative;
     display: inline-block;
     margin-bottom: 11px;
     margin-right: 7px;
