@@ -48,6 +48,11 @@ body {
 
 
 
+
+
+
+
+
 /*==========Top Header==========*/
 
 .header_topline {
@@ -181,6 +186,11 @@ a.social_link:hover {
 
 
 
+
+
+
+
+
 /*=============Mid Header===========*/
 
 .mid_header {
@@ -203,6 +213,11 @@ a.social_link:hover {
     font-size: 24px;
     color: #000;
 }
+
+
+
+
+
 
 
 
@@ -316,6 +331,11 @@ a.social_link:hover {
 
 
 
+
+
+
+
+
 /*=============Slider==============*/
 
 .slider.owl-carousel .owl-item img {
@@ -363,6 +383,9 @@ a.social_link:hover {
     font-weight: 500;
     line-height: 36px;
     text-transform: uppercase;
+}
+
+.slider_description button:focus {
     outline: none;
 }
 
@@ -408,6 +431,11 @@ a.social_link:hover {
 .slider.owl-carousel.owl-loaded {
     position: relative;
 }
+
+
+
+
+
 
 
 
@@ -526,6 +554,11 @@ a.social_link:hover {
 
 
 
+
+
+
+
+
 /*=========Support============*/
 
 .support {
@@ -571,6 +604,11 @@ a.social_link:hover {
     text-align: center;
     margin-bottom: 58px;
 }
+
+
+
+
+
 
 
 
@@ -728,6 +766,11 @@ h3.title {
 
 
 
+
+
+
+
+
 /*========================Slider=========================*/
 
 .slider-item img {
@@ -845,6 +888,11 @@ h3.title {
 
 
 
+
+
+
+
+
 /*=================*Banner*=============*/
 
 .banner {
@@ -900,6 +948,9 @@ h3.title {
     font-weight: 500;
     line-height: 36px;
     text-transform: uppercase;
+}
+
+.banner_description button:focus {
     outline: none;
 }
 
@@ -914,6 +965,22 @@ h3.title {
     transition: all 0.4s;
 }
 
+
+
+
+
+
+/*=================Trend================*/
+
+.intro {
+    margin-bottom: 57px;
+}
+
+.trend {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 80px;
+}
 
 .trend h3.title {
     color: #000000;
@@ -930,7 +997,97 @@ h3.title {
     font-size: 14px;
     font-weight: 400;
     line-height: 26.03px;
-    margin-bottom: 57px;
+}
+
+
+
+.tab-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 34px;
+    margin-bottom: 83px;
+}
+
+.shirt_item {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.shirt_item p {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.shirt_item .prise {
+    color: #010101;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 52px;
+    text-align: center
+}
+
+
+/*=====Tabs Style======*/
+
+.trend .nav-tabs {
+    text-align: center;
+    border: none;
+}
+
+.trend .nav-tabs .nav-item {
+    float: none;
+    display: inline-block;
+    position: relative;
+    margin: 0 9px 0 8px;
+    min-width: 134px;
+}
+
+.trend .nav-item a.active {
+    color: #fff;
+    font-weight: 400;
+    background: #eaae3b;
+}
+
+.nav-item a.active::after {
+    content: '';
+    position: absolute;
+    right: 50%;
+    top: 100%;
+    border: 7px solid transparent;
+    border-top-color: #eaae3b;
+    ;
+    transform: translateX(50%);
+}
+
+.trend .nav-item a {
+    font-size: 12px;
+    font-weight: 500;
+    color: #000;
+    padding: 8px 25px;
+    background: #eee;
+}
+
+.nav-item a::after {
+    content: '';
+    position: absolute;
+    right: 50%;
+    top: 100%;
+    border: 7px solid transparent;
+    border-top-color: #eee;
+    transform: translateX(50%);
+}
+
+
+.trend .nav-tabs .nav-item {
+    float: none;
+    display: inline-block;
+    position: relative;
+    margin: 0 9px 0 8px;
+    min-width: 134px;
 }
 
 
@@ -946,6 +1103,33 @@ h3.title {
 
 
 
+/*=======================*/
+
+.trend button {
+    width: 221px;
+    height: 66px;
+    border-radius: 7px;
+    border: 2px solid #eaae3b;
+    background-color: #fff;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.trend button:hover {
+    cursor: pointer;
+    border: 2px solid #d02e09;
+    font-weight: bold;
+    color: #000;
+    font-size: 14px;
+    transition: all 0.4s;
+}
+
+.trend button:focus {
+    outline: none;
+}
 
 
 
@@ -1133,6 +1317,11 @@ span.discount {
 
 
 
+
+
+
+
+
 /*================Instagram=================*/
 
 .instagram {
@@ -1155,6 +1344,11 @@ span.discount {
     text-align: center;
     margin: 0 auto 46px;
 }
+
+
+
+
+
 
 
 
@@ -1213,7 +1407,6 @@ span.discount {
 
 */
 
-
 .instagram_item {
     position: relative;
     display: inline-block;
@@ -1243,6 +1436,11 @@ span.discount {
 .instagram_item:hover .instagram_item {
     display: none;
 }
+
+
+
+
+
 
 
 
@@ -1294,12 +1492,11 @@ form {
     position: relative;
 }
 
-.form-control {
+.form-controll {
     width: 290px;
     height: 45px;
     border-radius: 5px;
     border: none;
-    outline: none;
     display: inline-block;
     background-color: #ffffff;
     color: #999999;
@@ -1310,6 +1507,9 @@ form {
     text-align: left;
 }
 
+.form-control:focus {
+    outline: none;
+}
 
 .email_icon .material-icons {
     position: absolute;
@@ -1364,6 +1564,11 @@ form {
     font-weight: 300;
     line-height: 30px;
 }
+
+
+
+
+
 
 
 
@@ -1485,3 +1690,4 @@ form {
     text-decoration: none;
     color: #fff;
     cursor: pointer;
+}
