@@ -59,6 +59,9 @@ body {
 
 
 
+
+
+
 /*==========Top Header==========*/
 
 .header_topline {
@@ -205,6 +208,9 @@ a.social_link:hover {
 
 
 
+
+
+
 /*=============Mid Header===========*/
 
 .mid_header {
@@ -227,6 +233,9 @@ a.social_link:hover {
     font-size: 24px;
     color: #000;
 }
+
+
+
 
 
 
@@ -313,6 +322,9 @@ a.social_link:hover {
     text-decoration: none;
     transition: 0.3s;
 }
+
+
+
 
 
 
@@ -502,6 +514,9 @@ a.social_link:hover {
 
 
 
+
+
+
 /*=======For navigation on hover effect=========*/
 
 .slider.owl-theme .owl-nav {
@@ -512,6 +527,7 @@ a.social_link:hover {
     cursor: default;
     color: #a9a9a9;
 }
+
 
 
 .owl-nav:hover {
@@ -550,6 +566,9 @@ a.social_link:hover {
 .slider.owl-theme .owl-nav [class*=owl-] i {
     font-size: 38px;
 }
+
+
+
 
 
 
@@ -642,6 +661,9 @@ a.social_link:hover {
     text-align: center;
     margin-bottom: 58px;
 }
+
+
+
 
 
 
@@ -784,6 +806,9 @@ h3.title {
     line-height: 26.03px;
     margin-bottom: 27px;
 }
+
+
+
 
 
 
@@ -964,6 +989,9 @@ h3.title {
 
 
 
+
+
+
 /*=================*Banner*=============*/
 
 .banner {
@@ -1047,6 +1075,9 @@ h3.title {
 
 
 
+
+
+
 /*=================Trend================*/
 
 .intro {
@@ -1106,6 +1137,9 @@ h3.title {
     line-height: 52px;
     text-align: center
 }
+
+
+
 
 
 
@@ -1181,6 +1215,9 @@ h3.title {
 
 
 
+
+
+
 /*=======================*/
 
 .trend button {
@@ -1208,6 +1245,9 @@ h3.title {
 .trend button:focus {
     outline: none;
 }
+
+
+
 
 
 
@@ -1330,6 +1370,44 @@ span.discount {
     padding-left: 10px;
 }
 
+.sliderr_not {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+}
+
+.not_item {
+    display: inline-block;
+}
+
+.sliderr_not .new_product p {
+    border-radius: 5px;
+    background-color: #16a90f;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 0px 12px;
+}
+
+.sliderr_not .discount_product p {
+    border-radius: 5px;
+    background-color: #ff0000;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 0px 12px;
+
+}
+
+
+
+
 
 .about {
     display: inline-block;
@@ -1413,6 +1491,9 @@ span.discount {
 
 
 
+
+
+
 /*================Instagram=================*/
 
 .instagram {
@@ -1435,6 +1516,9 @@ span.discount {
     text-align: center;
     margin: 0 auto 46px;
 }
+
+
+
 
 
 
@@ -1513,6 +1597,9 @@ span.discount {
 .insta_approve .like_number {
     margin-right: 30px;
 }
+
+
+
 
 
 
@@ -1647,6 +1734,9 @@ form {
     font-weight: 300;
     line-height: 30px;
 }
+
+
+
 
 
 
