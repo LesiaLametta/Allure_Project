@@ -1039,27 +1039,34 @@ h3.title {
 }
 
 .trend .nav-tabs .nav-item {
-    float: none;
-    display: inline-block;
-    position: relative;
-    margin: 0 9px 0 8px;
-    min-width: 134px;
+    margin: 0 34px;
 }
 
-.trend .nav-item a.active {
+.trend .nav-tabs>li.active>a,
+.trend .nav-tabs>li.active>a:hover, 
+.trend .nav-tabs>li.active>a:focus {
     color: #fff;
     font-weight: 400;
     background: #eaae3b;
 }
 
-.nav-item a.active::after {
+.trend .nav-item a::after {
+    content: '';
+    position: absolute;
+    right: 50%;
+    top: 100%;
+    border: 7px solid transparent;
+    border-top-color: #eee;
+    transform: translateX(50%);
+}
+
+.trend .nav-item li.active>a::after {
     content: '';
     position: absolute;
     right: 50%;
     top: 100%;
     border: 7px solid transparent;
     border-top-color: #eaae3b;
-    ;
     transform: translateX(50%);
 }
 
@@ -1071,24 +1078,9 @@ h3.title {
     background: #eee;
 }
 
-.nav-item a::after {
-    content: '';
-    position: absolute;
-    right: 50%;
-    top: 100%;
-    border: 7px solid transparent;
-    border-top-color: #eee;
-    transform: translateX(50%);
-}
 
 
-.trend .nav-tabs .nav-item {
-    float: none;
-    display: inline-block;
-    position: relative;
-    margin: 0 9px 0 8px;
-    min-width: 134px;
-}
+
 
 
 
@@ -1360,53 +1352,6 @@ span.discount {
 /*============*==========For hover with absolute picture positioning============*/
 
 
-/*.insta_hover {
-    position: relative;
-    display: none;
-}
-
-.insta_hover_desription {
-    position: absolute;
-    top: 28%;
-    left: 37%;
-}
-
-.insta_approve {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    vertical-align: middle;
-    margin: 15px -30px;
-}
-
-
-.insta_hover img {
-    padding-bottom: 15px;
-}
-
-.like_number,
-.comment_number {
-    color: #ffffff;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 30px;
-    padding-left: 7px;
-}
-
-
-
-.instagram-item:hover .insta_hover {
-    display: block;
-    cursor: pointer;
-}
-
-
-.instagram-item img:hover .instagram-item {
-    display: none;
-}
-
-*/
-
 .instagram_item {
     position: relative;
     display: inline-block;
@@ -1418,6 +1363,7 @@ span.discount {
 .insta_hover {
     position: absolute;
     display: none;
+    background: orange;
     top: 0;
     bottom: 0;
     right: 0;
@@ -1425,12 +1371,10 @@ span.discount {
 }
 
 
-
-
-
 .instagram_item:hover .insta_hover {
     display: block;
     cursor: pointer;
+
 }
 
 .instagram_item:hover .instagram_item {
