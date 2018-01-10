@@ -1058,11 +1058,13 @@ h3.title {
 .trend .nav-tabs {
     text-align: center;
     border: none;
+    border-radius: 7px;
 }
 
 .trend .nav-tabs .nav-item {
-    margin: 0 34px;
+    margin: 0 29px;
 }
+
 
 .trend .nav-tabs>li.active>a,
 .trend .nav-tabs>li.active>a:hover,
@@ -1071,18 +1073,12 @@ h3.title {
     font-weight: 400;
     background: #eaae3b;
 }
-
-.trend .nav-item a::after {
-    content: '';
-    position: absolute;
-    right: 50%;
-    top: 100%;
-    border: 7px solid transparent;
-    border-top-color: #eee;
-    transform: translateX(50%);
+.trend .nav-tabs>li>a {
+    border-radius: 4px;
 }
 
-.trend .nav-item li.active>a::after {
+
+.trend .nav-tabs>li.active>a::after {
     content: '';
     position: absolute;
     right: 50%;
@@ -1096,7 +1092,7 @@ h3.title {
     font-size: 12px;
     font-weight: 500;
     color: #000;
-    padding: 8px 25px;
+    padding: 8px 40px;
     background: #eee;
 }
 
@@ -1173,7 +1169,7 @@ h3.title {
     bottom: 13%;
     left: 35%;
     justify-content: center;
-    margin-bottom: 38px;
+    margin-bottom: 68px;
 }
 
 .color_dot {
@@ -1223,13 +1219,14 @@ h3.title {
 
 .slider-item:hover .hover_item {
     cursor: pointer;
+    position: absolute;
+    width: 100%;
+    z-index: 443;
+    bottom: 27px;
     display: block;
-    transition: all 0.3s ease;
+    transition: all 0.3s;
 }
 
-.slider-item:hover .sliderr_description {
-    display: none;
-}
 
 .sliderr_description {
     position: relative;
