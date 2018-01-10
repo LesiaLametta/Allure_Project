@@ -55,6 +55,8 @@ body {
 
 
 
+
+
 /*==========Top Header==========*/
 
 .header_topline {
@@ -65,11 +67,16 @@ body {
 .container_header {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
+.buttons {
+    vertical-align: top;
+}
 
 .button_choice {
     text-align: left;
+    position: relative;
 }
 
 .button_choice {
@@ -91,12 +98,10 @@ button.button_choice:focus {
 }
 
 .button_choice .material-icons {
-    width: 7px;
-    height: 4px;
     color: #898989;
     padding: 0 3px;
-    position: relative;
-    top: 7px;
+    position: absolute;
+    bottom: 0;
 }
 
 .button_choice .material-icons:hover {
@@ -151,6 +156,7 @@ a.social_link:hover {
 .header_options {
     text-align: right;
 }
+
 
 
 
@@ -258,6 +264,8 @@ a.social_link:hover {
 
 
 
+
+
 /*========Down Header========*/
 
 .bg-wrapper {
@@ -299,6 +307,8 @@ a.social_link:hover {
     text-decoration: none;
     transition: 0.3s;
 }
+
+
 
 
 
@@ -480,6 +490,8 @@ a.social_link:hover {
 
 
 
+
+
 /*=======For navigation on hover effect=========*/
 
 .slider.owl-theme .owl-nav {
@@ -571,6 +583,8 @@ a.social_link:hover {
 
 
 
+
+
 /*=========Support============*/
 
 .support {
@@ -616,6 +630,8 @@ a.social_link:hover {
     text-align: center;
     margin-bottom: 58px;
 }
+
+
 
 
 
@@ -787,6 +803,8 @@ h3.title {
 
 
 
+
+
 /*========================Slider=========================*/
 
 .slider-item img {
@@ -911,6 +929,8 @@ h3.title {
 
 
 
+
+
 /*=================*Banner*=============*/
 
 .banner {
@@ -990,6 +1010,8 @@ h3.title {
 
 
 
+
+
 /*=================Trend================*/
 
 .intro {
@@ -1053,6 +1075,8 @@ h3.title {
 
 
 
+
+
 /*=====Tabs Style======*/
 
 .trend .nav-tabs {
@@ -1073,6 +1097,7 @@ h3.title {
     font-weight: 400;
     background: #eaae3b;
 }
+
 .trend .nav-tabs>li>a {
     border-radius: 4px;
 }
@@ -1095,6 +1120,8 @@ h3.title {
     padding: 8px 40px;
     background: #eee;
 }
+
+
 
 
 
@@ -1142,6 +1169,8 @@ h3.title {
 .trend button:focus {
     outline: none;
 }
+
+
 
 
 
@@ -1339,6 +1368,8 @@ span.discount {
 
 
 
+
+
 /*================Instagram=================*/
 
 .instagram {
@@ -1361,6 +1392,8 @@ span.discount {
     text-align: center;
     margin: 0 auto 46px;
 }
+
+
 
 
 
@@ -1419,7 +1452,8 @@ span.discount {
     vertical-align: bottom;
 }
 
-.insta_approve .like_number, .comment_number {
+.insta_approve .like_number,
+.comment_number {
     color: #ffffff;
     vertical-align: top;
     font-size: 12px;
@@ -1452,12 +1486,13 @@ span.discount {
 
 
 
+
+
 /*===================Footer==================*/
 
 .footer_bg {
     background-color: #2e2b2b;
     padding: 79px 0 60px;
-
 }
 
 
@@ -1561,6 +1596,8 @@ form {
     font-weight: 300;
     line-height: 30px;
 }
+
+
 
 
 
