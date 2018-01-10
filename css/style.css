@@ -57,6 +57,7 @@ body {
 
 
 
+
 /*==========Top Header==========*/
 
 .header_topline {
@@ -201,6 +202,7 @@ a.social_link:hover {
 
 
 
+
 /*=============Mid Header===========*/
 
 .mid_header {
@@ -223,6 +225,7 @@ a.social_link:hover {
     font-size: 24px;
     color: #000;
 }
+
 
 
 
@@ -307,6 +310,7 @@ a.social_link:hover {
     text-decoration: none;
     transition: 0.3s;
 }
+
 
 
 
@@ -492,6 +496,7 @@ a.social_link:hover {
 
 
 
+
 /*=======For navigation on hover effect=========*/
 
 .slider.owl-theme .owl-nav {
@@ -585,6 +590,7 @@ a.social_link:hover {
 
 
 
+
 /*=========Support============*/
 
 .support {
@@ -630,6 +636,7 @@ a.social_link:hover {
     text-align: center;
     margin-bottom: 58px;
 }
+
 
 
 
@@ -805,6 +812,7 @@ h3.title {
 
 
 
+
 /*========================Slider=========================*/
 
 .slider-item img {
@@ -931,6 +939,7 @@ h3.title {
 
 
 
+
 /*=================*Banner*=============*/
 
 .banner {
@@ -1012,6 +1021,7 @@ h3.title {
 
 
 
+
 /*=================Trend================*/
 
 .intro {
@@ -1071,6 +1081,7 @@ h3.title {
     line-height: 52px;
     text-align: center
 }
+
 
 
 
@@ -1142,6 +1153,7 @@ h3.title {
 
 
 
+
 /*=======================*/
 
 .trend button {
@@ -1169,6 +1181,7 @@ h3.title {
 .trend button:focus {
     outline: none;
 }
+
 
 
 
@@ -1370,6 +1383,7 @@ span.discount {
 
 
 
+
 /*================Instagram=================*/
 
 .instagram {
@@ -1409,6 +1423,7 @@ span.discount {
 
 
 
+
 /*============*==========For hover with absolute picture positioning============*/
 
 .instagram_item {
@@ -1418,6 +1433,9 @@ span.discount {
     margin-right: 7px;
 }
 
+.insta-item {
+    margin-top: 50px;
+}
 
 .insta_hover {
     position: absolute;
@@ -1458,12 +1476,14 @@ span.discount {
     vertical-align: top;
     font-size: 12px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 21px;
+    padding-left: 7px;
 }
 
 .insta_approve .like_number {
     margin-right: 30px;
 }
+
 
 
 
@@ -1596,6 +1616,7 @@ form {
     font-weight: 300;
     line-height: 30px;
 }
+
 
 
 
