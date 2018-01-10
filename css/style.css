@@ -58,6 +58,7 @@ body {
 
 
 
+
 /*==========Top Header==========*/
 
 .header_topline {
@@ -203,6 +204,7 @@ a.social_link:hover {
 
 
 
+
 /*=============Mid Header===========*/
 
 .mid_header {
@@ -225,6 +227,7 @@ a.social_link:hover {
     font-size: 24px;
     color: #000;
 }
+
 
 
 
@@ -310,6 +313,7 @@ a.social_link:hover {
     text-decoration: none;
     transition: 0.3s;
 }
+
 
 
 
@@ -497,6 +501,7 @@ a.social_link:hover {
 
 
 
+
 /*=======For navigation on hover effect=========*/
 
 .slider.owl-theme .owl-nav {
@@ -591,6 +596,7 @@ a.social_link:hover {
 
 
 
+
 /*=========Support============*/
 
 .support {
@@ -636,6 +642,7 @@ a.social_link:hover {
     text-align: center;
     margin-bottom: 58px;
 }
+
 
 
 
@@ -813,6 +820,7 @@ h3.title {
 
 
 
+
 /*========================Slider=========================*/
 
 .slider-item img {
@@ -850,7 +858,6 @@ h3.title {
 }
 
 .sliderr.owl-theme .owl-nav {
-    position: relative;
     bottom: 0;
     right: 0;
     background-color: #fff;
@@ -858,9 +865,25 @@ h3.title {
     color: #a9a9a9;
 }
 
-.sliderr .owl-next {
-    float: right;
+.sliderr.owl-theme .owl-nav>div.owl-prev {
+    margin-right: -1px;
+    position: absolute;
+    bottom: 55%;
 }
+
+.sliderr.owl-theme .owl-nav>div.owl-next {
+    margin-right: -1px;
+    position: absolute;
+    bottom: 55%;
+    right: 0;
+}
+
+.slider.owl_theme .owl-nav .owl-next {
+    position: absolute;
+    bottom: 50%;
+    right: 0;
+}
+
 
 
 
@@ -904,6 +927,7 @@ h3.title {
 .sliderr.owl-theme .owl-nav [class*=owl-] i {
     font-size: 38px;
 }
+
 
 
 
@@ -1022,6 +1046,7 @@ h3.title {
 
 
 
+
 /*=================Trend================*/
 
 .intro {
@@ -1081,6 +1106,7 @@ h3.title {
     line-height: 52px;
     text-align: center
 }
+
 
 
 
@@ -1154,6 +1180,7 @@ h3.title {
 
 
 
+
 /*=======================*/
 
 .trend button {
@@ -1181,6 +1208,7 @@ h3.title {
 .trend button:focus {
     outline: none;
 }
+
 
 
 
@@ -1384,6 +1412,7 @@ span.discount {
 
 
 
+
 /*================Instagram=================*/
 
 .instagram {
@@ -1406,6 +1435,7 @@ span.discount {
     text-align: center;
     margin: 0 auto 46px;
 }
+
 
 
 
@@ -1483,6 +1513,7 @@ span.discount {
 .insta_approve .like_number {
     margin-right: 30px;
 }
+
 
 
 
@@ -1616,6 +1647,7 @@ form {
     font-weight: 300;
     line-height: 30px;
 }
+
 
 
 
