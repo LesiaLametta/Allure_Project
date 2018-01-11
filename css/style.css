@@ -25,43 +25,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*==========Top Header==========*/
 
 .header_topline {
@@ -131,7 +94,7 @@ a.social_link {
     background: #3a3a3a;
 }
 
-a.social_link:hover {
+.container_header .header_link a.social_link:hover {
     color: #fff;
 }
 
@@ -161,6 +124,7 @@ a.social_link:hover {
 .header_options {
     text-align: right;
 }
+
 
 
 
@@ -281,6 +245,7 @@ a.social_link:hover {
 
 
 
+
 /*========Down Header========*/
 
 .bg-wrapper {
@@ -311,9 +276,7 @@ a.social_link:hover {
     color: #000000;
     font-size: 13px;
     font-weight: 400;
-    line-height: 24px;
     text-transform: uppercase;
-    list-style-type: none;
     padding: 28px 29px;
 }
 
@@ -322,6 +285,7 @@ a.social_link:hover {
     text-decoration: none;
     transition: 0.3s;
 }
+
 
 
 
@@ -397,7 +361,6 @@ a.social_link:hover {
     color: #ffffff;
     font-size: 56px;
     font-weight: 500;
-    line-height: 30.03px;
     margin-bottom: 57px;
 }
 
@@ -406,7 +369,6 @@ a.social_link:hover {
     color: #ffffff;
     font-size: 14px;
     font-weight: 200;
-    line-height: 26.03px;
     margin: 0 auto 77px;
 }
 
@@ -419,7 +381,6 @@ a.social_link:hover {
     color: #fff;
     font-size: 12px;
     font-weight: 500;
-    line-height: 36px;
     text-transform: uppercase;
 }
 
@@ -469,6 +430,7 @@ a.social_link:hover {
 .slider.owl-carousel.owl-loaded {
     position: relative;
 }
+
 
 
 
@@ -616,6 +578,7 @@ a.social_link:hover {
 
 
 
+
 /*=========Support============*/
 
 .support {
@@ -709,6 +672,7 @@ a.social_link:hover {
 
 
 
+
 /*----------__Static__===============*/
 
 .container_static {
@@ -741,7 +705,6 @@ a.social_link:hover {
 
 h4.item_name1 {
     width: 170px;
-    height: 66px;
     color: #4fa59d;
     font-size: 36px;
     font-weight: 400;
@@ -751,7 +714,6 @@ h4.item_name1 {
 
 h4.item_name2 {
     width: 131px;
-    height: 67px;
     color: #9a7e45;
     font-size: 36px;
     font-weight: 400;
@@ -765,7 +727,6 @@ p.more {
     margin: 30px 0 66px;
     font-size: 12px;
     font-weight: 400;
-    line-height: 36px;
     text-transform: uppercase;
     letter-spacing: 2.4px;
 }
@@ -806,6 +767,7 @@ h3.title {
     line-height: 26.03px;
     margin-bottom: 27px;
 }
+
 
 
 
@@ -992,6 +954,7 @@ h3.title {
 
 
 
+
 /*=================*Banner*=============*/
 
 .banner {
@@ -1019,16 +982,14 @@ h3.title {
 }
 
 .banner_description h2 {
-    height: 40px;
     color: #ffffff;
     font-size: 42px;
     font-weight: 400;
-    line-height: 30.03px;
     margin-bottom: 49px;
 }
 
 .banner_description p {
-    max-width: 705px;
+    max-width: 650px;
     color: #ffffff;
     font-size: 14px;
     font-weight: 200;
@@ -1045,7 +1006,6 @@ h3.title {
     color: #fff;
     font-size: 12px;
     font-weight: 500;
-    line-height: 36px;
     text-transform: uppercase;
 }
 
@@ -1078,6 +1038,7 @@ h3.title {
 
 
 
+
 /*=================Trend================*/
 
 .intro {
@@ -1094,11 +1055,9 @@ h3.title {
     color: #000000;
     font-size: 42px;
     font-weight: 500;
-    line-height: 30.03px;
 }
 
 .trend p {
-    text-align: center;
     margin: 0 auto;
     max-width: 775px;
     color: #000000;
@@ -1126,7 +1085,6 @@ h3.title {
     color: #000000;
     font-size: 14px;
     font-weight: 400;
-    line-height: 30px;
     text-align: center;
 }
 
@@ -1134,9 +1092,11 @@ h3.title {
     color: #010101;
     font-size: 20px;
     font-weight: 500;
-    line-height: 52px;
+    line-height: 37px;
     text-align: center
 }
+
+
 
 
 
@@ -1218,6 +1178,7 @@ h3.title {
 
 
 
+
 /*=======================*/
 
 .trend button {
@@ -1229,7 +1190,6 @@ h3.title {
     color: #000000;
     font-size: 12px;
     font-weight: 500;
-    line-height: 36px;
     text-transform: uppercase;
 }
 
@@ -1245,6 +1205,7 @@ h3.title {
 .trend button:focus {
     outline: none;
 }
+
 
 
 
@@ -1346,7 +1307,6 @@ h3.title {
     color: #000000;
     font-size: 14px;
     font-weight: 400;
-    line-height: 30px;
     text-align: center;
     margin-bottom: 0;
 }
@@ -1366,7 +1326,6 @@ span.discount {
     color: #999999;
     font-size: 16px;
     font-weight: 400;
-    line-height: 52px;
     padding-left: 10px;
 }
 
@@ -1402,7 +1361,6 @@ span.discount {
     font-weight: 500;
     line-height: 30px;
     padding: 0px 12px;
-
 }
 
 
@@ -1418,7 +1376,6 @@ span.discount {
     text-align: left;
     font-size: 42px;
     font-weight: 500;
-    line-height: 30.03px;
     padding-bottom: 57px;
     margin-left: 0;
     margin-right: 0;
@@ -1494,6 +1451,7 @@ span.discount {
 
 
 
+
 /*================Instagram=================*/
 
 .instagram {
@@ -1516,6 +1474,7 @@ span.discount {
     text-align: center;
     margin: 0 auto 46px;
 }
+
 
 
 
@@ -1626,6 +1585,7 @@ span.discount {
 
 
 
+
 /*===================Footer==================*/
 
 .footer_bg {
@@ -1645,7 +1605,7 @@ span.discount {
 
 .newsletter p {
     color: #999999;
-    max-width: 275px;
+    max-width: 230px;
     margin-bottom: 37px;
     font-size: 13px;
     font-weight: 300;
@@ -1654,8 +1614,6 @@ span.discount {
 
 .email_form {
     display: inline-block;
-    /*    position: relative;
-*/
 }
 
 form {
@@ -1708,7 +1666,6 @@ form {
     color: #999999;
     font-size: 13px;
     font-weight: 300;
-    line-height: 30px;
 }
 
 
@@ -1749,25 +1706,13 @@ form {
 
 
 
-
-
-/*.footer_media a.social_links {
-    display: inline-block;
-    line-height: 1;
-    margin: 0 2px;
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: 400;
-    padding: 8px;
-    width: 30px;
-    height: 30px;
-    border-radius: 50px;
-
-}*/
+.footer_media a.social_links {
+    text-decoration: none;
+    text-align: center;
+}
 
 .footer_media a.social_links .fa-facebook {
     display: inline-block;
-    line-height: 1;
     margin: 0 2px;
     color: #ffffff;
     font-size: 15px;
@@ -1782,7 +1727,6 @@ form {
 
 .footer_media a.social_links .fa-rss {
     display: inline-block;
-    line-height: 1;
     margin: 0 2px;
     color: #ffffff;
     font-size: 15px;
@@ -1796,7 +1740,6 @@ form {
 
 .footer_media a.social_links .fa-pinterest {
     display: inline-block;
-    line-height: 1;
     margin: 0 2px;
     color: #ffffff;
     font-size: 15px;
@@ -1811,7 +1754,6 @@ form {
 
 .footer_media a.social_links .fa-twitter {
     display: inline-block;
-    line-height: 1;
     margin: 0 2px;
     color: #ffffff;
     font-size: 15px;
