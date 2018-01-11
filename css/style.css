@@ -352,6 +352,10 @@ a.social_link {
 
 /*=============Slider==============*/
 
+.slider .owl-nav {
+    /*display: none;*/
+}
+
 .slider.owl-carousel .owl-item img {
     width: auto;
 }
@@ -449,52 +453,32 @@ a.social_link {
 
 
 
+/*==============Upper Slider=============*/
+.slider {
+    position: relative;
+    margin-bottom: 120px;
+}
 
 
+.slider.owl-theme .owl-dots .owl-dot.active span {
+    background: #eaae3b;
+    border: none;
+}
+
+.slider.owl-theme .owl-dots .owl-dot span {
+    border: 2px solid #999999;
+    background: #999999;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*=======For navigation on hover effect=========*/
 
 .slider.owl-theme .owl-nav {
-    position: absolute;
+    background-color: #fff;
+    cursor: default;
+    color: #a9a9a9;
+}
+
+.slider.owl-theme .owl-nav {
     bottom: 0;
     right: 0;
     background-color: #fff;
@@ -502,59 +486,40 @@ a.social_link {
     color: #a9a9a9;
 }
 
-
-
-.owl-nav:hover {
-    background-color: #fff;
+.slider.owl-theme .owl-nav>div.owl-prev {
+    position: absolute;
+    bottom: 55%;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
 }
 
-.slider.owl-theme .owl-nav>div {
-    color: #a9a9a9;
-    font-size: 14px;
-    margin: 0;
-    padding: 11px 7px 5px 13px;
-    background: #ffffff;
-    display: inline-block;
-    cursor: pointer;
-    border-radius: 0;
-    border: 1px solid #eeeeee;
-}
-
-
-
-.slider.owl-theme .owl-nav .disabled {
-    opacity: 1;
+.slider.owl-theme .owl-nav>div.owl-next {
+    position: absolute;
+    bottom: 55%;
+    right: 0;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
 }
 
 
-.slider.owl-theme .owl-nav .owl-prev {
-    margin-right: -1px;
+.slider.owl-theme .owl-nav .material-icons {
+    padding: 9px 1px;
 }
 
 
 .slider.owl-theme .owl-nav [class*=owl-]:hover {
-    background-color: #ffffff;
-    color: #a9a9a9;
-}
-
-.slider.owl-theme .owl-nav [class*=owl-] i {
-    font-size: 38px;
+    background: #eaae3b;
 }
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
+/*===========The End of Upper Slider============*/
 
 
 
@@ -842,11 +807,12 @@ h3.title {
 
 
 
-/*========================Slider=========================*/
+/*========================Sliderr=========================*/
 
 .sliderr {
     padding: 0 20px;
 }
+
 .slider-item img {
     display: block;
     position: relative;
@@ -860,6 +826,18 @@ h3.title {
 }
 
 
+
+.sliderr {
+    position: relative;
+    margin-bottom: 120px;
+}
+
+.sliderr {
+    position: relative;
+    margin-bottom: 120px;
+}
+
+
 .sliderr.owl-theme .owl-dots .owl-dot.active span {
     background: #eaae3b;
     border: none;
@@ -870,10 +848,10 @@ h3.title {
     background: #999999;
 }
 
-.sliderr {
-    position: relative;
-    margin-bottom: 120px;
+.sliderr.owl-theme .owl-nav>div.owl-prev.active{
+    background: orange;
 }
+
 
 .sliderr.owl-theme .owl-nav {
     background-color: #fff;
@@ -890,66 +868,31 @@ h3.title {
 }
 
 .sliderr.owl-theme .owl-nav>div.owl-prev {
-    margin-right: -1px;
     position: absolute;
     bottom: 55%;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
 }
 
 .sliderr.owl-theme .owl-nav>div.owl-next {
-    margin-right: -1px;
     position: absolute;
     bottom: 55%;
     right: 0;
-}
-
-.slider.owl_theme .owl-nav .owl-next {
-    position: absolute;
-    bottom: 50%;
-    right: 0;
-}
-
-
-
-
-.sliderr.owl-nav:hover {
-    background-color: #fff;
-}
-
-.sliderr.owl-theme .owl-nav>div {
-    color: #a9a9a9;
-    font-size: 14px;
-    margin: 0;
-    padding: 11px 7px 5px 13px;
-    display: inline-block;
-    cursor: pointer;
-    border-radius: 50px;
-    border: 1px solid #eeeeee;
-    background-color: #ffffff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
 }
 
 
-
-
-
-.owl-nav:hover {
-    background-color: #fff;
+.sliderr.owl-theme .owl-nav .material-icons {
+    padding: 9px 1px;
 }
-
-
-
-
-.sliderr.owl-theme .owl-nav .owl-prev {
-    margin-right: -1px;
-}
-
 
 .sliderr.owl-theme .owl-nav [class*=owl-]:hover {
-    background-color: #ffffff;
-    color: #a9a9a9;
-}
-
-.sliderr.owl-theme .owl-nav [class*=owl-] i {
-    font-size: 38px;
+    background: #eaae3b;
 }
 
 
