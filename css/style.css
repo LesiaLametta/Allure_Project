@@ -109,6 +109,7 @@ a.social_link {
     padding-left: 37px;
     font-size: 12px;
     font-weight: 400;
+    margin-bottom: 0;
 }
 
 .header_options a {
@@ -181,9 +182,8 @@ a.social_link {
     padding: 51px 0;
 }
 
-.search {
-    text-align: left;
-    font-size: 24px;
+.search .material-icons {
+    font-size: 28px;
     color: #000;
 }
 
@@ -192,9 +192,9 @@ a.social_link {
     text-align: center;
 }
 
-.basket {
-    text-align: right;
-    font-size: 24px;
+.mid_header .basket .material-icons {
+    float: right;
+    font-size: 28px;
     color: #000;
 }
 
@@ -675,10 +675,14 @@ a.social_link {
 
 /*----------__Static__===============*/
 
-.container_static {
+.container.container_static {
     display: flex;
     align-items: center;
-    margin-top: 79px;
+    max-width: 100%;
+}
+
+.container .container_static .static_item{
+    max-width: 100%;
 }
 
 .static_duo {
@@ -687,6 +691,7 @@ a.social_link {
 
 .static_item {
     margin-bottom: 30px;
+
 }
 
 .static_singular {
@@ -699,14 +704,15 @@ a.social_link {
 
 .static_description {
     position: absolute;
-    bottom: 10%;
-    left: 10%;
+    bottom: 20%;
+    left: 14%;
 }
 
 h4.item_name1 {
     width: 170px;
     color: #4fa59d;
     font-size: 36px;
+    margin-bottom: 10px;
     font-weight: 400;
     line-height: 40px;
     letter-spacing: -0.9px;
@@ -721,27 +727,36 @@ h4.item_name2 {
     letter-spacing: -0.9px;
 }
 
-p.more {
-    width: 105px;
-    height: 9px;
-    margin: 30px 0 66px;
+ p.more {
+    display: inline-block;
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 2.4px;
 }
+.static_description .material-icons {
+    display: none;
+    vertical-align: text-bottom;
+    font-size: 15px;
+}
+
 
 .static_description a {
     text-decoration: none;
     color: #000000;
 }
 
+.static_description .material-icons {
+}
+
 .static_description a:hover {
+    display: block;
     text-decoration: none;
-    color: #821010;
-    font-weight: bold;
     transition: 0.3s;
 }
+
+
+
 
 .products {
     margin-top: 138px;
@@ -752,8 +767,7 @@ h3.title {
     color: #000000;
     font-size: 42px;
     height: 40px;
-    font-weight: 500;
-    line-height: 30.03px;
+    font-weight: 550;
     margin-bottom: 49px;
 }
 
@@ -810,6 +824,9 @@ h3.title {
 
 /*========================Slider=========================*/
 
+.sliderr {
+    padding: 0 20px;
+}
 .slider-item img {
     display: block;
     position: relative;
@@ -1147,7 +1164,7 @@ h3.title {
 .trend .nav-item a {
     font-size: 12px;
     font-weight: 500;
-    color: #000;
+    color: #8e8e8e;
     padding: 8px 40px;
     background: #eee;
 }
@@ -1266,7 +1283,7 @@ h3.title {
 
 
 .view {
-    display: flex;
+    display: flex; 
     justify-content: center;
     margin: 0 auto;
     border: none;
@@ -1330,6 +1347,7 @@ span.discount {
 }
 
 .sliderr_not {
+    padding: 0 20px;
     position: absolute;
     display: flex;
     width: 100%;
@@ -1370,13 +1388,13 @@ span.discount {
 .about {
     display: inline-block;
     padding-top: 109px;
+    width: 100%;
 }
 
 .about .about_left .title {
     text-align: left;
     font-size: 42px;
     font-weight: 500;
-    padding-bottom: 57px;
     margin-left: 0;
     margin-right: 0;
 }
@@ -1506,9 +1524,6 @@ span.discount {
     margin-right: 7px;
 }
 
-.insta-item {
-    margin-top: 50px;
-}
 
 .insta_hover {
     position: absolute;
@@ -1516,7 +1531,7 @@ span.discount {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: orange;
+    background: #eaae3b;
     top: 0;
     bottom: 0;
     right: 0;
@@ -1524,7 +1539,6 @@ span.discount {
 }
 
 .insta_hover img {
-    margin-bottom: 30px;
 }
 
 .instagram_item:hover .insta_hover {
@@ -1558,6 +1572,9 @@ span.discount {
 }
 
 
+.insta-item {
+    margin: 30px 0;
+}
 
 
 
