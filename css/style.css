@@ -513,6 +513,16 @@ a.social_link {
 
 .slider.owl-theme .owl-nav [class*=owl-]:hover {
     background: #eaae3b;
+    color: #fff;
+}
+
+.slider.owl-theme .owl-nav [class*=owl-] {
+    color: #c0c3c2;
+    margin: 5px;
+    padding: 4px 7px;
+    background: #fff;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 
@@ -893,7 +903,18 @@ h3.title {
 
 .sliderr.owl-theme .owl-nav [class*=owl-]:hover {
     background: #eaae3b;
+    color: #fff;
 }
+
+.sliderr.owl-theme .owl-nav [class*=owl-] {
+    color: #c0c3c2;
+    margin: 5px;
+    padding: 4px 7px;
+    background: #fff;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
 
 
 
@@ -1230,6 +1251,7 @@ h3.title {
     margin-right: 5px;
     margin-left: 5px;
     border-radius: 50px;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.2);
 }
 
 .color_dot.color1 {
