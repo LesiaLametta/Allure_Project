@@ -198,6 +198,18 @@ a.social_link {
     color: #000;
 }
 
+.basket .number {
+    position: absolute;
+    right: 3%;
+    line-height: 2px;
+    top: 18%;
+    border-radius: 60%;
+    background: orange;
+    padding: 4px 3px;
+    font-size: 8px;
+    color: #fff;
+}
+
 
 
 
@@ -749,10 +761,18 @@ h4.item_name2 {
 .static_description .material-icons {
 }
 
+
 .static_description a:hover {
-    display: block;
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.static_description:hover  i{
+    display: inline-block;
     text-decoration: none;
     transition: 0.3s;
+    text-decoration: none;
 }
 
 
@@ -1805,7 +1825,7 @@ form {
 
 .footer_line {
     border-bottom: 2px solid #dedcdc;
-    padding-top: 285px;
+    margin: 58px 0;
 }
 
 .footer_underline {
