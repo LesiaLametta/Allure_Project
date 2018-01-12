@@ -25,6 +25,11 @@ body {
 
 
 
+
+
+
+
+
 /*==========Top Header==========*/
 
 .header_topline {
@@ -176,6 +181,11 @@ a.social_link {
 
 
 
+
+
+
+
+
 /*=============Mid Header===========*/
 
 .mid_header {
@@ -209,6 +219,11 @@ a.social_link {
     font-size: 8px;
     color: #fff;
 }
+
+
+
+
+
 
 
 
@@ -297,6 +312,11 @@ a.social_link {
     text-decoration: none;
     transition: 0.3s;
 }
+
+
+
+
+
 
 
 
@@ -453,7 +473,13 @@ a.social_link {
 
 
 
+
+
+
+
+
 /*==============Upper Slider=============*/
+
 .slider {
     position: relative;
     margin-bottom: 120px;
@@ -473,10 +499,14 @@ a.social_link {
 
 
 .slider.owl-theme .owl-nav {
+    /*    display: none;
+*/
     background-color: #fff;
     cursor: default;
     color: #a9a9a9;
 }
+
+
 
 .slider.owl-theme .owl-nav {
     bottom: 0;
@@ -529,41 +559,12 @@ a.social_link {
 
 
 
+
+
+
+
+
 /*===========The End of Upper Slider============*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*=========Support============*/
@@ -660,6 +661,11 @@ a.social_link {
 
 
 
+
+
+
+
+
 /*----------__Static__===============*/
 
 .container.container_static {
@@ -668,7 +674,7 @@ a.social_link {
     max-width: 100%;
 }
 
-.container .container_static .static_item{
+.container_static .static_item img {
     max-width: 100%;
 }
 
@@ -678,7 +684,6 @@ a.social_link {
 
 .static_item {
     margin-bottom: 30px;
-
 }
 
 .static_singular {
@@ -714,13 +719,14 @@ h4.item_name2 {
     letter-spacing: -0.9px;
 }
 
- p.more {
+p.more {
     display: inline-block;
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 2.4px;
 }
+
 .static_description .material-icons {
     display: none;
     vertical-align: text-bottom;
@@ -733,8 +739,7 @@ h4.item_name2 {
     color: #000000;
 }
 
-.static_description .material-icons {
-}
+.static_description .material-icons {}
 
 
 .static_description a:hover {
@@ -743,7 +748,7 @@ h4.item_name2 {
 }
 
 
-.static_description:hover  i{
+.static_description:hover i {
     display: inline-block;
     text-decoration: none;
     transition: 0.3s;
@@ -761,7 +766,6 @@ h3.title {
     text-align: center;
     color: #000000;
     font-size: 42px;
-    height: 40px;
     font-weight: 550;
     margin-bottom: 49px;
 }
@@ -776,6 +780,11 @@ h3.title {
     line-height: 26.03px;
     margin-bottom: 27px;
 }
+
+
+
+
+
 
 
 
@@ -858,7 +867,7 @@ h3.title {
     background: #999999;
 }
 
-.sliderr.owl-theme .owl-nav>div.owl-prev.active{
+.sliderr.owl-theme .owl-nav>div.owl-prev.active {
     background: orange;
 }
 
@@ -914,6 +923,11 @@ h3.title {
     box-shadow: 0 5px 14px rgba(0, 0, 0, 0.2);
     cursor: pointer;
 }
+
+
+
+
+
 
 
 
@@ -1040,10 +1054,15 @@ h3.title {
 
 
 
+
+
+
+
+
 /*=================Trend================*/
 
 .intro {
-    margin-bottom: 57px;
+    margin-bottom: 47px;
 }
 
 .trend {
@@ -1109,6 +1128,11 @@ h3.title {
 
 
 
+
+
+
+
+
 /*=====Tabs Style======*/
 
 .trend .nav-tabs {
@@ -1118,7 +1142,7 @@ h3.title {
 }
 
 .trend .nav-tabs .nav-item {
-    margin: 0 29px;
+    margin: 10px;
 }
 
 
@@ -1149,9 +1173,14 @@ h3.title {
     font-size: 12px;
     font-weight: 500;
     color: #8e8e8e;
-    padding: 8px 40px;
+    min-width: 162px;
     background: #eee;
 }
+
+
+
+
+
 
 
 
@@ -1228,6 +1257,11 @@ h3.title {
 
 
 
+
+
+
+
+
 /*=======Hover======*/
 
 .hover_item {
@@ -1268,7 +1302,7 @@ h3.title {
 
 
 .view {
-    display: flex; 
+    display: flex;
     justify-content: center;
     margin: 0 auto;
     border: none;
@@ -1371,9 +1405,12 @@ span.discount {
 
 
 .about {
-    display: inline-block;
+    display: flex;
     padding-top: 109px;
     width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .about .about_left .title {
@@ -1385,13 +1422,12 @@ span.discount {
 }
 
 .about .about_left .about_p {
-    max-width: 540px;
-    height: 170px;
+    max-width: 535px;
     color: #000000;
     font-size: 14px;
     font-weight: 400;
     line-height: 26px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 
@@ -1399,7 +1435,6 @@ span.discount {
     color: #eaae3b;
     font-size: 14px;
     font-weight: 500;
-    line-height: 36px;
 }
 
 .about .about_left a {
@@ -1415,8 +1450,11 @@ span.discount {
 }
 
 .about_right .about_item {
-    float: right;
-    margin-left: 159px;
+    text-align: right;
+}
+
+.about_right .about_item img {
+    max-width: 100%;
 }
 
 .line {
@@ -1455,6 +1493,11 @@ span.discount {
 
 
 
+
+
+
+
+
 /*================Instagram=================*/
 
 .instagram {
@@ -1466,7 +1509,6 @@ span.discount {
     text-align: center;
     font-size: 42px;
     font-weight: 500;
-    line-height: 30.03px;
 }
 
 .instagram p {
@@ -1500,13 +1542,17 @@ span.discount {
 
 
 
+
+
+
+
+
 /*============*==========For hover with absolute picture positioning============*/
 
 .instagram_item {
     position: relative;
     display: inline-block;
-    margin-bottom: 11px;
-    margin-right: 7px;
+    margin: 5.5px 3.5px;
 }
 
 
@@ -1523,8 +1569,7 @@ span.discount {
     left: 0;
 }
 
-.insta_hover img {
-}
+.insta_hover img {}
 
 .instagram_item:hover .insta_hover {
     display: flex;
@@ -1588,6 +1633,11 @@ span.discount {
 
 
 
+
+
+
+
+
 /*===================Footer==================*/
 
 .footer_bg {
@@ -1608,7 +1658,7 @@ span.discount {
 .newsletter p {
     color: #999999;
     max-width: 230px;
-    margin-bottom: 37px;
+    margin-bottom: 47px;
     font-size: 13px;
     font-weight: 300;
     line-height: 24px;
@@ -1616,6 +1666,7 @@ span.discount {
 
 .email_form {
     display: inline-block;
+    width: 100%;
 }
 
 form {
@@ -1623,7 +1674,7 @@ form {
 }
 
 .form-controll {
-    width: 290px;
+    width: 100%;
     height: 45px;
     border-radius: 5px;
     border: none;
@@ -1633,7 +1684,6 @@ form {
     font-size: 13px;
     font-weight: 400;
     padding-left: 17px;
-    line-height: 24px;
     text-align: left;
 }
 
@@ -1833,3 +1883,90 @@ form {
     font-weight: 400;
     padding: 24px 0;
 }
+
+
+
+
+
+
+
+
+
+/*==========Media Queries=============*/
+
+@media (max-width: 1024px) {
+    .trend .nav-tabs .nav-item {
+        margin: 0 14px;
+    }
+    .shirt_item {
+        margin: 5px 5px;
+    }
+    .trend .nav-tabs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .trend .nav-tabs .nav-item {
+        padding: 5px 14px;
+    }
+    .about .about_left .about_p {
+        margin-bottom: 40px;
+    }
+    .instagram .title {
+        margin-top: 80px;
+    }
+    .instagram-item {
+        text-align: center;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .down_header .items a {
+        padding: 28px 17px;
+    }
+
+    .products p {
+        margin-bottom: 35px;
+    }
+    .trend .nav-tabs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .trend .nav-tabs .nav-item {
+        margin: 5px 5px;
+    }
+
+    .tab-content {
+        margin-bottom: 60px;
+    }
+
+    .slider {
+        margin-bottom: 0px;
+    }
+    .instagram-item {
+        text-align: center;
+    }
+    .instagram p {
+        padding: 0 20px;
+    }
+
+    .newsletter p {
+        margin-bottom: 22px;
+    }
+}
+
+
+
+@media (max-width: 640px) {}
+
+
+@media (max-width: 480px) {}
+
+
+@media (max-width: 320px) {}
