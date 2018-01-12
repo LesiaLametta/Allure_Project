@@ -6,7 +6,7 @@
 body {
     font-family: Montserrat, sans-serif;
     max-width: 1920px;
-    margin: 0 auto;
+    margin: 0 auto !important;
 }
 
 
@@ -16,6 +16,10 @@ body {
     margin: 0 auto;
     padding: 0;
 }
+
+
+
+
 
 
 
@@ -192,6 +196,10 @@ a.social_link {
 
 
 
+
+
+
+
 /*=============Mid Header===========*/
 
 .mid_header {
@@ -222,57 +230,15 @@ a.social_link {
 
 .basket .number {
     position: absolute;
-    right: 3%;
+    right: 2%;
     line-height: 2px;
-    top: 18%;
+    top: 0;
     border-radius: 60%;
     background: orange;
-    padding: 4px 3px;
+    padding: 7px 6px;
     font-size: 8px;
     color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -294,14 +260,15 @@ a.social_link {
     background-color: #F2F2F2;
 }
 
-.down_header {
+.down_header {}
+
+ul.items {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     min-width: 66%;
 }
-
 
 
 .down_header ul.items {
@@ -327,6 +294,10 @@ a.social_link {
     text-decoration: none;
     transition: 0.3s;
 }
+
+
+
+
 
 
 
@@ -453,6 +424,13 @@ a.social_link {
     transition: all 0.4s;
 }
 
+.slider.owl-theme .owl-nav {
+    display: none;
+}
+
+.slider:hover .owl-nav {
+    display: block;
+}
 
 
 
@@ -484,6 +462,10 @@ a.social_link {
 .slider.owl-carousel.owl-loaded {
     position: relative;
 }
+
+
+
+
 
 
 
@@ -575,6 +557,10 @@ a.social_link {
     box-shadow: 0 5px 14px rgba(0, 0, 0, 0.2);
     cursor: pointer;
 }
+
+
+
+
 
 
 
@@ -695,6 +681,10 @@ a.social_link {
 
 
 
+
+
+
+
 /*----------__Static__===============*/
 
 .container.container_static {
@@ -731,7 +721,6 @@ a.social_link {
 
 h4.item_name1 {
     width: 170px;
-    max-width: 50%;
     color: #4fa59d;
     font-size: 36px;
     margin-bottom: 10px;
@@ -808,6 +797,10 @@ h3.title {
     line-height: 26.03px;
     margin-bottom: 27px;
 }
+
+
+
+
 
 
 
@@ -1004,6 +997,10 @@ h3.title {
 
 
 
+
+
+
+
 /*=================*Banner*=============*/
 
 .banner {
@@ -1072,6 +1069,10 @@ h3.title {
     opacity: 0.5;
     transition: all 0.4s;
 }
+
+
+
+
 
 
 
@@ -1173,6 +1174,10 @@ h3.title {
 
 
 
+
+
+
+
 /*=====Tabs Style======*/
 
 .trend .nav-tabs {
@@ -1252,6 +1257,10 @@ h3.title {
 
 
 
+
+
+
+
 /*=======================*/
 
 .trend button {
@@ -1278,6 +1287,10 @@ h3.title {
 .trend button:focus {
     outline: none;
 }
+
+
+
+
 
 
 
@@ -1530,6 +1543,10 @@ span.discount {
 
 
 
+
+
+
+
 /*================Instagram=================*/
 
 .instagram {
@@ -1551,6 +1568,10 @@ span.discount {
     text-align: center;
     margin: 0 auto 46px;
 }
+
+
+
+
 
 
 
@@ -1640,6 +1661,10 @@ span.discount {
 .insta-item {
     margin: 30px 0;
 }
+
+
+
+
 
 
 
@@ -1933,6 +1958,10 @@ form {
 
 
 
+
+
+
+
 /*==========Media Queries=============*/
 
 @media (max-width: 1024px) {
@@ -1960,6 +1989,9 @@ form {
     .instagram-item {
         text-align: center;
     }
+    .items a {
+        padding: 21px;
+    }
 }
 
 
@@ -1968,6 +2000,20 @@ form {
 @media (max-width: 768px) {
     .down_header .items a {
         padding: 28px 17px;
+    }
+
+    .top_header {
+        display: none;
+    }
+    .search {
+        display: none;
+    }
+    .mid_header .burger {
+        display: inline-block;
+    }
+
+    .down_header {
+        display: none;
     }
 
     .products p {
@@ -1987,17 +2033,10 @@ form {
         margin-bottom: 60px;
     }
 
-    .static_description h4.item_name1,
-    h4.item_name2 {
-        font-size: 23px;
-    }
-    .static_description h4.item_name2 {
-        max-width: 70%;
+    .container.container_static {
+        flex-direction: column;
     }
 
-    .static_description p.more {
-        font-size: 10px;
-    }
 
     .slider {
         margin-bottom: 0px;
@@ -2017,19 +2056,6 @@ form {
 
 
 @media (max-width: 640px) {
-    .top_header {
-        display: none;
-    }
-    .search {
-        display: none;
-    }
-    .mid_header .burger {
-        display: inline-block;
-    }
-
-    .down_header {
-        display: none;
-    }
 
     .slider_description h2 {
         margin-bottom: 42px;
@@ -2087,32 +2113,41 @@ form {
         right: 9%;
     }
 
-    .slider_description p {
-        max-width: 340px;
+    .slider_description h2 {
+        margin-bottom: 30px;
     }
 
-    .suppot_description p {
-        font-size: 11px;
+    .support {
+        flex-direction: column;
     }
-    .suppot_description h4 {
-        font-size: 12px;
+    .container.container_static {
+        flex-direction: column;
     }
 
-    .static_description h4.item_name1,
-    h4.item_name2 {
-        font-size: 18px;
-    }
-    .static_description h4.item_name2 {
-        max-width: 50%;
-    }
-    .static_description {
-        bottom: 3%;
-        left: 8%;
+
+    .about {
+        display: flex;
+        flex-direction: column;
     }
 
     .static_description p.more {
         font-size: 8px;
     }
+
+
+    .static_description {
+        left: 10%;
+    }
+
+    .static_description h4.item_name1,
+    h4.item_name2 {
+        font-size: 33px;
+    }
+
+    .static_description h4.item_name2 {
+        max-width: 90%;
+    }
+
     .footer_copyright {
         flex-direction: column;
     }
@@ -2128,9 +2163,57 @@ form {
     .footer_title {
         margin: 15px 0;
     }
+    .slider.owl-theme .owl-nav>div.owl-prev,
+    .slider.owl-theme .owl-nav>div.owl-next {
+        display: none;
+    }
 }
 
 
 @media (max-width: 320px) {
-    
+    .slider_description h2 {
+        font-size: 38px;
+    }
+
+    .support {
+        margin-top: 30px;
+    }
+
+    .support {
+        flex-direction: column;
+    }
+
+    .container.container_static {
+        flex-direction: column;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slider.owl-theme .owl-nav>div.owl-prev,
+    .slider.owl-theme .owl-nav>div.owl-next {
+        display: none;
+    }
+
+    .banner_description p {
+        padding: 0 15px margin: 0 auto 50px;
+    }
+
+    .static_description {
+        position: absolute;
+        bottom: 6%;
+        left: 10%;
+    }
+
+    .static_description h4.item_name1 {
+        font-size: 22px;
+        max-width: 50%;
+    }
+
+    .static_description h4.item_name2 {
+        font-size: 22px;
+        max-width: 60%;
+    }
 }
