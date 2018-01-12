@@ -30,6 +30,8 @@ body {
 
 
 
+
+
 /*==========Top Header==========*/
 
 .header_topline {
@@ -186,6 +188,8 @@ a.social_link {
 
 
 
+
+
 /*=============Mid Header===========*/
 
 .mid_header {
@@ -197,10 +201,16 @@ a.social_link {
     color: #000;
 }
 
+.mid_header .burger {
+    display: none;
+}
+
 .logo {
     display: inline-block;
     text-align: center;
 }
+
+
 
 .mid_header .basket .material-icons {
     float: right;
@@ -219,6 +229,8 @@ a.social_link {
     font-size: 8px;
     color: #fff;
 }
+
+
 
 
 
@@ -312,6 +324,8 @@ a.social_link {
     text-decoration: none;
     transition: 0.3s;
 }
+
+
 
 
 
@@ -478,6 +492,8 @@ a.social_link {
 
 
 
+
+
 /*==============Upper Slider=============*/
 
 .slider {
@@ -564,6 +580,8 @@ a.social_link {
 
 
 
+
+
 /*===========The End of Upper Slider============*/
 
 
@@ -612,6 +630,8 @@ a.social_link {
     text-align: center;
     margin-bottom: 58px;
 }
+
+
 
 
 
@@ -826,6 +846,8 @@ h3.title {
 
 
 
+
+
 /*========================Sliderr=========================*/
 
 .sliderr {
@@ -970,6 +992,8 @@ h3.title {
 
 
 
+
+
 /*=================*Banner*=============*/
 
 .banner {
@@ -1038,6 +1062,8 @@ h3.title {
     opacity: 0.5;
     transition: all 0.4s;
 }
+
+
 
 
 
@@ -1133,6 +1159,8 @@ h3.title {
 
 
 
+
+
 /*=====Tabs Style======*/
 
 .trend .nav-tabs {
@@ -1209,6 +1237,8 @@ h3.title {
 
 
 
+
+
 /*=======================*/
 
 .trend button {
@@ -1235,6 +1265,8 @@ h3.title {
 .trend button:focus {
     outline: none;
 }
+
+
 
 
 
@@ -1474,24 +1506,9 @@ span.discount {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.sponsors_item img {
+    width: 100%;
+}
 
 
 
@@ -1519,6 +1536,8 @@ span.discount {
     text-align: center;
     margin: 0 auto 46px;
 }
+
+
 
 
 
@@ -1605,6 +1624,8 @@ span.discount {
 .insta-item {
     margin: 30px 0;
 }
+
+
 
 
 
@@ -1892,6 +1913,8 @@ form {
 
 
 
+
+
 /*==========Media Queries=============*/
 
 @media (max-width: 1024px) {
@@ -1963,7 +1986,70 @@ form {
 
 
 
-@media (max-width: 640px) {}
+@media (max-width: 640px) {
+    .top_header {
+        display: none;
+    }
+    .search {
+        display: none;
+    }
+    .mid_header .burger {
+        display: inline-block;
+    }
+
+    .down_header {
+        display: none;
+    }
+
+    .slider_description h2 {
+        margin-bottom: 42px;
+    }
+    .slider_description p {
+        max-width: 512px;
+    }
+
+    .products {
+        margin-top: 60px;
+    }
+    .banner {
+        margin-bottom: 60px;
+    }
+    .about {
+        padding-top: 60px;
+    }
+    h3.title {
+        font-size: 38px;
+    }
+    .about .about_left .about_p {
+        font-size: 12px;
+    }
+    .about .about_left .link {
+        font-size: 12px;
+    }
+    .line {
+        padding: 35px 0;
+    }
+    .sponsors_item img {
+        padding: 0 5px;
+    }
+    .footer_title {
+        text-align: center;
+    }
+    .newsletter p {
+        max-width: inherit;
+        text-align: center;
+    }
+    .footer_title {
+        margin: 38px 0;
+    }
+
+    .info_options li,
+    .footer_media,
+    .hours,
+    .footer_underline ul {
+        text-align: center;
+    }
+}
 
 
 @media (max-width: 480px) {}
