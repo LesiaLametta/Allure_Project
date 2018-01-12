@@ -32,6 +32,7 @@ body {
 
 
 
+
 /*==========Top Header==========*/
 
 .header_topline {
@@ -190,6 +191,7 @@ a.social_link {
 
 
 
+
 /*=============Mid Header===========*/
 
 .mid_header {
@@ -285,6 +287,7 @@ a.social_link {
 
 
 
+
 /*========Down Header========*/
 
 .bg-wrapper {
@@ -324,6 +327,7 @@ a.social_link {
     text-decoration: none;
     transition: 0.3s;
 }
+
 
 
 
@@ -494,6 +498,7 @@ a.social_link {
 
 
 
+
 /*==============Upper Slider=============*/
 
 .slider {
@@ -582,6 +587,7 @@ a.social_link {
 
 
 
+
 /*===========The End of Upper Slider============*/
 
 
@@ -589,7 +595,7 @@ a.social_link {
 
 .support {
     padding-top: 62px;
-    padding-right: 13px;
+    padding: 13px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -686,6 +692,9 @@ a.social_link {
 
 
 
+
+
+
 /*----------__Static__===============*/
 
 .container.container_static {
@@ -722,11 +731,11 @@ a.social_link {
 
 h4.item_name1 {
     width: 170px;
+    max-width: 50%;
     color: #4fa59d;
     font-size: 36px;
     margin-bottom: 10px;
     font-weight: 400;
-    line-height: 40px;
     letter-spacing: -0.9px;
 }
 
@@ -735,7 +744,6 @@ h4.item_name2 {
     color: #9a7e45;
     font-size: 36px;
     font-weight: 400;
-    line-height: 40px;
     letter-spacing: -0.9px;
 }
 
@@ -800,6 +808,7 @@ h3.title {
     line-height: 26.03px;
     margin-bottom: 27px;
 }
+
 
 
 
@@ -994,6 +1003,7 @@ h3.title {
 
 
 
+
 /*=================*Banner*=============*/
 
 .banner {
@@ -1062,6 +1072,7 @@ h3.title {
     opacity: 0.5;
     transition: all 0.4s;
 }
+
 
 
 
@@ -1161,6 +1172,7 @@ h3.title {
 
 
 
+
 /*=====Tabs Style======*/
 
 .trend .nav-tabs {
@@ -1239,6 +1251,7 @@ h3.title {
 
 
 
+
 /*=======================*/
 
 .trend button {
@@ -1265,6 +1278,7 @@ h3.title {
 .trend button:focus {
     outline: none;
 }
+
 
 
 
@@ -1515,6 +1529,7 @@ span.discount {
 
 
 
+
 /*================Instagram=================*/
 
 .instagram {
@@ -1536,6 +1551,7 @@ span.discount {
     text-align: center;
     margin: 0 auto 46px;
 }
+
 
 
 
@@ -1624,6 +1640,7 @@ span.discount {
 .insta-item {
     margin: 30px 0;
 }
+
 
 
 
@@ -1915,6 +1932,7 @@ form {
 
 
 
+
 /*==========Media Queries=============*/
 
 @media (max-width: 1024px) {
@@ -1967,6 +1985,18 @@ form {
 
     .tab-content {
         margin-bottom: 60px;
+    }
+
+    .static_description h4.item_name1,
+    h4.item_name2 {
+        font-size: 23px;
+    }
+    .static_description h4.item_name2 {
+        max-width: 70%;
+    }
+
+    .static_description p.more {
+        font-size: 10px;
     }
 
     .slider {
@@ -2052,7 +2082,55 @@ form {
 }
 
 
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+    .basket .number {
+        right: 9%;
+    }
+
+    .slider_description p {
+        max-width: 340px;
+    }
+
+    .suppot_description p {
+        font-size: 11px;
+    }
+    .suppot_description h4 {
+        font-size: 12px;
+    }
+
+    .static_description h4.item_name1,
+    h4.item_name2 {
+        font-size: 18px;
+    }
+    .static_description h4.item_name2 {
+        max-width: 50%;
+    }
+    .static_description {
+        bottom: 3%;
+        left: 8%;
+    }
+
+    .static_description p.more {
+        font-size: 8px;
+    }
+    .footer_copyright {
+        flex-direction: column;
+    }
+    .footer_copyright p {
+        margin: 0;
+    }
+    .copyright_item {
+        margin-bottom: 15px;
+    }
+    .footer_line {
+        margin: 25px auto;
+    }
+    .footer_title {
+        margin: 15px 0;
+    }
+}
 
 
-@media (max-width: 320px) {}
+@media (max-width: 320px) {
+    
+}
